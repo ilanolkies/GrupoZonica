@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GrupoZonica.Views.Vivo">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GrupoZonica.Views.Vivo"
+             Title="Vivo">
     <StackLayout>
-        <Label Text="logo" />
-        <Label Text="banner" />
+        <Image Source="logo.png" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" HeightRequest="150"/>
+        <Image Source="{Binding Banner}" HorizontalOptions="CenterAndExpand"/>
         <StackLayout Orientation="Horizontal">
-            <Label Text="programa" />
-            <Label Text="share" />
+            <Label Text="{Binding Nombre}" HorizontalOptions="StartAndExpand" />
+            <Image Source="share.png" HorizontalOptions="End" />
         </StackLayout>
         <Label Text="play/pausa" />
         <Label Text="noticias principales" />

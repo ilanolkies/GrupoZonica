@@ -110,6 +110,12 @@
       <Visible>false</Visible>
     </ImageAsset>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logo.imageset\logo.png" />
+    <ImageAsset Include="Assets.xcassets\share.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\share.imageset\baseline_share_black_36pt_1x.png" />
+    <ImageAsset Include="Assets.xcassets\share.imageset\baseline_share_black_36pt_2x.png" />
+    <ImageAsset Include="Assets.xcassets\share.imageset\baseline_share_black_36pt_3x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -129,5 +135,9 @@
       <Project>{C4D7E605-13C9-4BC0-9F57-51AD3E3908C0}</Project>
       <Name>GrupoZonica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\logo.imageset\" />
+    <Folder Include="Assets.xcassets\share.imageset\" />
   </ItemGroup>
 </Project>
